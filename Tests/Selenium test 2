@@ -1,0 +1,182 @@
+{
+  "id": "c7289730-0091-4600-b085-2a800fb82886",
+  "version": "2.0",
+  "name": "Polling app",
+  "url": "http://poll-app7-20200409.softacad.bg",
+  "tests": [{
+    "id": "d7d5a8f1-c839-4c83-8da2-eeced10dbe26",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "ff6415cd-3389-4824-8fa4-3a119ff6432d",
+    "name": "Login",
+    "commands": [{
+      "id": "e7218a56-e3bb-44ec-94a6-73529939a709",
+      "comment": "",
+      "command": "open",
+      "target": "/polls",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddf5b1f5-8b45-41c1-b047-5d5f2c7618e1",
+      "comment": "",
+      "command": "click",
+      "target": "id=login",
+      "targets": [
+        ["id=login", "id"],
+        ["css=#login", "css:finder"],
+        ["xpath=//button[@id='login']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarSupportedContent']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe289485-e280-40b0-b7c8-ca621ba03e94",
+      "comment": "",
+      "command": "click",
+      "target": "id=usernameOrEmail",
+      "targets": [
+        ["id=usernameOrEmail", "id"],
+        ["css=#usernameOrEmail", "css:finder"],
+        ["xpath=//input[@id='usernameOrEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6f1faac-befa-4e3f-bcf0-c754a7d19c26",
+      "comment": "",
+      "command": "type",
+      "target": "id=usernameOrEmail",
+      "targets": [
+        ["id=usernameOrEmail", "id"],
+        ["css=#usernameOrEmail", "css:finder"],
+        ["xpath=//input[@id='usernameOrEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "normalUser1"
+    }, {
+      "id": "6e2df5cd-2db5-4c7a-9727-0c5c6ea8fa6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1a99b00-3d10-4344-9b19-486ef9cfefb4",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "e90ba96b-ce36-4567-8ce3-d910e028fb47",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.btn-block", "css:finder"],
+        ["xpath=//button[@name='login']", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72101552-2bab-46dd-ac51-719c752c42d7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.oi-home",
+      "targets": [
+        ["css=.oi-home", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b04436c2-ea34-4384-bb5a-81b99d215766",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.oi-home",
+      "targets": [
+        ["css=.oi-home", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93b5a00a-cd38-4d3e-9f68-4169ffc111c4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.nav-link > .oi-list-rich",
+      "targets": [
+        ["css=.nav-link > .oi-list-rich", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2e0318f-041b-4808-9db6-1c3ccf57dc13",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.nav-link > .oi-list-rich",
+      "targets": [
+        ["css=.nav-link > .oi-list-rich", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "badb635e-d364-434b-bd3a-75ed9b4dac30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-toggle",
+      "targets": [
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "721cfe54-a827-4d11-b412-87406ac1cecb",
+      "comment": "",
+      "command": "click",
+      "target": "name=logout-button",
+      "targets": [
+        ["name=logout-button", "name"],
+        ["css=.btn-link", "css:finder"],
+        ["xpath=//button[@name='logout-button']", "xpath:attributes"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/ul/li[5]/button", "xpath:idRelative"],
+        ["xpath=//li[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "73e3918b-c31c-430c-9325-366ed36821ea",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d7d5a8f1-c839-4c83-8da2-eeced10dbe26"]
+  }, {
+    "id": "10193068-7837-41cc-bf25-5525cb88e89c",
+    "name": "Login",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://poll-app7-20200409.softacad.bg/"],
+  "plugins": []
+}
